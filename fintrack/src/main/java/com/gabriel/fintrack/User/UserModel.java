@@ -1,6 +1,7 @@
 package com.gabriel.fintrack.User;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -22,12 +23,10 @@ public class UserModel {
     private String name;
 
     @Column(unique = true)
+    @NotBlank
     private String email;
 
     @Column(name = "password")
     private String password;
-
-    @Column(name = "confirm_password")
-    private String confirmPassword;
 }
 
