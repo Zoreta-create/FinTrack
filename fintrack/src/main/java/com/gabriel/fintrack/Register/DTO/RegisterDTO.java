@@ -12,4 +12,9 @@ public class RegisterDTO {
     private String email;
     private String password;
     private String confirmPassword;
+    private String goal;
+    private String income;
+    private String expense;
+    private String tips;
+    private String darkMode;
 }

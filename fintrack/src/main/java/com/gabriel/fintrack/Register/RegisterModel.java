@@ -28,5 +28,20 @@ public class UserModel {
 
     @Column(name = "password")
     private String password;
+
+    @Column(name = "goal")
+    private String goal;
+
+    @Column(name = "income")
+    private String income;
+
+    @Column(name = "expense")
+    private String expense;
+
+    @Column(name = "tips")
+    private String tips;
+
+    @Column(name = "darkMode")
+    private String darkMode;
 }
 
