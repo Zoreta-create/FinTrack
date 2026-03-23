@@ -1,4 +1,4 @@
-package com.gabriel.fintrack.User;
+package com.gabriel.fintrack.Register;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data //serve para reduzir codigo repetitivo (boilerplate) e tornar o codigo mais limpo e focado na logica de negocios
-public class UserModel {
+public class RegisterModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
