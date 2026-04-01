@@ -20,7 +20,7 @@ public class RegisterService {
     //Cadastro
     public RegisterModel register(RegisterDTO dto) {
         if (registerRepository.existsByEmail(dto.getEmail())) {
-            throw new RuntimeException("E-amil já cadastrado.");
+            throw new RuntimeException("E-mail já cadastrado.");
         }
         if (!Objects.equals(dto.getPassword(), dto.getConfirmPassword())){
             throw new RuntimeException("As senhas não coincidem");
