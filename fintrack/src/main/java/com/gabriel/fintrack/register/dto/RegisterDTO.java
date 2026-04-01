@@ -1,4 +1,4 @@
-package com.gabriel.fintrack.Register.DTO;
+package com.gabriel.fintrack.register.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

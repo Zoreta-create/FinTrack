@@ -1,4 +1,4 @@
-package com.gabriel.fintrack.Register;
+package com.gabriel.fintrack.register;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;

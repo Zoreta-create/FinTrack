@@ -1,6 +1,6 @@
-package com.gabriel.fintrack.Register;
+package com.gabriel.fintrack.register;
 
-import com.gabriel.fintrack.Register.DTO.RegisterDTO;
+import com.gabriel.fintrack.register.dto.RegisterDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

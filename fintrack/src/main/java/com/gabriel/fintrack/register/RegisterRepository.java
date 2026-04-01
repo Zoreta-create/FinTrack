@@ -1,4 +1,4 @@
-package com.gabriel.fintrack.Register;
+package com.gabriel.fintrack.register;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
